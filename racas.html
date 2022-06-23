@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Canil Unigoiás - Raças</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <a title="Voltar" href="index.html" class="btn-back"></a>
+        <h1 class="title">Raças</h1>
+    </div>
+    <div class="content">
+        <div class="form">
+            <form id="form-raca" method="post" action="#">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="raca">Raça:</label>
+                        <input type="text" name="raca" id="raca">
+                    </div>
+                </div>
+                <div class="row">
+                    <button type="submit">Cadastrar Raça</button>
+                </div>
+            </form>
+        </div>
+        <hr>
+        <div class="list">
+            <table id="racas-tbl">
+                <thead>
+                <tr>
+                    <th class="center">Id.</th>
+                    <th>Raça</th>
+                    <th class="center">Incluída em</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="module" src="js/pages/racas.js"></script>
+</body>
+</html>
